@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+          
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" 
+              android:adjustViewBounds="true"
+              android:src="@drawable/connectbackground"
+              android:id="@+id/connectbackground"
+              android:scaleType="centerCrop"
+              />
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Connect with us through these platforms and share your queries and experiences with us."
+              android:textSize="21sp"
+              android:id="@+id/connecttext1"
+              android:fontFamily="sans-serif-condensed"
+              android:gravity="center"
+              android:layout_marginTop="10dp"
+              android:textColor="@android:color/black"
+
+              />
+
+
+              <android.support.v7.widget.CardView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  app:cardBackgroundColor="@color/fui_transparent"
+                  app:cardCornerRadius="12dp"
+                  app:cardElevation="25dp"
+                  app:contentPadding="12dp"
+                  android:layout_below="@+id/connecttext1"
+                  android:layout_centerHorizontal="true"
+                  >
+
+
+
+              <RelativeLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="center_horizontal"
+                  android:gravity="center_horizontal"
+                  >
+
+                  <ImageView
+                      android:id="@+id/connect1"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/fbicon" />
+
+                  <ImageView
+                      android:id="@+id/connect2"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_toRightOf="@+id/connect1"
+                      android:src="@drawable/gmailicon" />
+
+                  <ImageView
+                      android:id="@+id/connect3"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_toRightOf="@+id/connect2"
+                      android:src="@drawable/twittericon" />
+
+                  <ImageView
+                      android:id="@+id/connect4"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                     android:layout_below="@+id/connect3"
+                      android:src="@drawable/googleplusicon" />
+
+                  <ImageView
+                      android:id="@+id/connect5"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/connect1"
+                      android:layout_toRightOf="@+id/connect4"
+                      android:src="@drawable/linkedinicon" />
+
+                  <ImageView
+                      android:id="@+id/connect6"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/connect1"
+                      android:layout_toRightOf="@+id/connect5"
+                      android:src="@drawable/youtubeicon" />
+
+                  <ImageView
+                      android:id="@+id/connect7"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/instagramicon"
+                      android:layout_below="@+id/connect4"
+                      />
+
+                  <ImageView
+                      android:id="@+id/connect8"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/whatsappicon"
+                      android:layout_toRightOf="@+id/connect7"
+                      android:layout_below="@+id/connect4"
+                      />
+
+                  <ImageView
+                      android:id="@+id/connect9"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/mapicon"
+                      android:layout_below="@+id/connect4"
+                      android:layout_toRightOf="@+id/connect8"
+                      />
+
+                  <ImageView
+                      android:id="@+id/connect10"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/phoneeicon"
+                      android:layout_below="@+id/connect7"/>
+
+                  <ImageView
+                      android:id="@+id/connect11"
+                      android:layout_width="86dp"
+                      android:layout_height="86dp"
+                      android:src="@drawable/yef_icon_short"
+                      android:layout_toRightOf="@+id/connect10"
+                      android:layout_below="@+id/connect7" />
+
+                  <ImageView
+                      android:id="@+id/connect12"
+                      android:layout_width="86dp"
+                      android:layout_height="86dp"
+                      android:src="@drawable/appdeveloper1"
+                      android:scaleType="centerCrop"
+                      android:layout_marginLeft="9dp"
+                      android:layout_toRightOf="@+id/connect11"
+                      android:layout_below="@+id/connect7" />
+
+              </RelativeLayout>
+
+
+          </android.support.v7.widget.CardView>
+
+
+      </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>

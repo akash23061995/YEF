@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="#FFFFFF"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                app:cardBackgroundColor="@color/colorAccent"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="15dp"
+                app:contentPadding="10dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/productfragt1"
+                    android:fontFamily="monospace"
+                    android:text="PRoducts"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/white"
+                    android:textSize="32sp" />
+            </android.support.v7.widget.CardView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                   android:gravity="center_horizontal"
+                   android:layout_gravity="center_horizontal"
+                    android:fontFamily="monospace"
+                    android:id="@+id/productfragt2"
+                    android:text="skill training livelihood drive"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp" />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="15dp"
+                app:contentPadding="10dp">
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  >
+                  <ImageView
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:src="@drawable/product_led"
+                      android:layout_gravity="center_horizontal"
+                      android:adjustViewBounds="true"
+                      android:layout_marginBottom="5dp"
+                      android:scaleType="centerCrop"
+                      />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                   android:background="#000000"
+                    android:alpha="0.8"
+                    android:layout_marginBottom="10dp"
+                    android:textAlignment="center"
+                    android:text="LED Bulb making training"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/productfragt3"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/holo_blue_bright"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/productfragt4"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="LED bulbs are being made by students who were at the edge of dropping their studies, but now our little effort turned them into self-dependent. They are not only continuing their education but are also earning to meet their family needs."
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="18sp" />
+              </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="15dp"
+                app:contentPadding="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/product_candle4"
+                        android:layout_gravity="center_horizontal"
+                        android:adjustViewBounds="true"
+                        android:layout_marginBottom="5dp"
+                        android:scaleType="centerCrop"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#000000"
+                        android:alpha="0.8"
+                        android:layout_marginBottom="10dp"
+                        android:textAlignment="center"
+                        android:text="Candle Making training"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/productfragt5"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/holo_blue_bright"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:id="@+id/productfragt6"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="This was undertaken during the Diwali Festival. We bought all the raw materials required, employed few needy women and youth and trained them with the candle making process. They made more than 4000 packets of candle sand we gave them opportunity to earn money and built their confidence to work independently."
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="15dp"
+                app:contentPadding="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/products_1"
+                        android:layout_gravity="center_horizontal"
+                        android:adjustViewBounds="true"
+                        android:layout_marginBottom="5dp"
+                        android:scaleType="centerCrop"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#000000"
+                        android:alpha="0.8"
+                        android:layout_marginBottom="10dp"
+                        android:textAlignment="center"
+                        android:id="@+id/productfragt7"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="Organic Gulal Making Training"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/holo_blue_bright"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:id="@+id/productfragt8"
+                        android:text="Similarly, they made Gulal during Holi festival this year.We also trained them in Paper Bag Making, Earrings making, Quelling Art, Stage performances like Singing, Dancing, Skit etc."
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="15dp"
+                app:contentPadding="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/product_candle"
+                        android:layout_gravity="center_horizontal"
+                        android:adjustViewBounds="true"
+                        android:layout_marginBottom="5dp"
+                        android:scaleType="centerCrop"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#000000"
+                        android:alpha="0.8"
+                        android:layout_marginBottom="10dp"
+                        android:textAlignment="center"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="Candle Making training"
+                        android:id="@+id/productfragt9"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/holo_blue_bright"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="15dp"
+                app:contentPadding="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/product_candle2"
+                        android:layout_gravity="center_horizontal"
+                        android:adjustViewBounds="true"
+                        android:layout_marginBottom="5dp"
+                        android:scaleType="centerCrop"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#000000"
+                        android:alpha="0.8"
+                        android:layout_marginBottom="10dp"
+                        android:textAlignment="center"
+                        android:id="@+id/productfragt10"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="Candle Making training"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/holo_blue_bright"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="15dp"
+                app:contentPadding="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/product_candle3"
+                        android:layout_gravity="center_horizontal"
+                        android:adjustViewBounds="true"
+                        android:layout_marginBottom="5dp"
+                        android:scaleType="centerCrop"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#000000"
+                        android:alpha="0.8"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:textAlignment="center"
+                        android:text="Candle Making training"
+                        android:id="@+id/productfragt11"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/holo_blue_bright"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="15dp"
+                app:contentPadding="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/product_diya3"
+                        android:layout_gravity="center_horizontal"
+                        android:adjustViewBounds="true"
+                        android:layout_marginBottom="5dp"
+                        android:scaleType="centerCrop"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#000000"
+                        android:alpha="0.8"
+                        android:layout_marginBottom="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:textAlignment="center"
+                        android:id="@+id/productfragt12"
+                        android:text="Diya Making training"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/holo_blue_bright"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="15dp"
+                app:contentPadding="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/product_diya2"
+                        android:layout_gravity="center_horizontal"
+                        android:adjustViewBounds="true"
+                        android:layout_marginBottom="5dp"
+                        android:scaleType="centerCrop"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#000000"
+                        android:alpha="0.8"
+                        android:layout_marginBottom="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:textAlignment="center"
+                        android:id="@+id/productfragt13"
+                        android:text="Diya Making training"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/holo_blue_bright"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="15dp"
+                app:contentPadding="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/product_diya"
+                        android:layout_gravity="center_horizontal"
+                        android:adjustViewBounds="true"
+                        android:layout_marginBottom="5dp"
+                        android:scaleType="centerCrop"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#000000"
+                        android:alpha="0.8"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:textAlignment="center"
+                        android:text="Diya Making training"
+                        android:id="@+id/productfragt14"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/holo_blue_bright"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

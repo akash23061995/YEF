@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@drawable/visionupdate"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:textAlignment="center"
+                    app:cardBackgroundColor="#000000"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="15dp"
+                    android:alpha="0.8"
+                    app:contentPadding="7dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:fontFamily="monospace"
+                        android:text="Updates"
+                        android:id="@+id/updatefrag1"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/white"
+                        android:textSize="32sp" />
+                </android.support.v7.widget.CardView>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:contentPadding="12dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="15dp"
+                    app:cardBackgroundColor="#FFFF00"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAlignment="center"
+                        android:text="This Diwali help us employ few women in candle making work.Help us raise funds for funding the training and raw materials for workshops.\n\n Click here."
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:id="@+id/updatefrag2"/>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:contentPadding="12dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="15dp"
+                    app:cardBackgroundColor="#FFFFFF"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAlignment="center"
+                        android:text="NEFT/IMPS/RTGS (From Banks in India only)\n Account number: 700701707077034\n Account name: Community Women\n IFSC code: YESB0CMSNOC \n------------------------------------------------\nUPI Handle: supportcommunity11@yesbankltd\nDirect UPI Pay (Android Only): http://impactgu.ru/upi-community-women"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:id="@+id/updatefragdiwali"/>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:contentPadding="12dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="15dp"
+                    app:cardBackgroundColor="#00E676"
+                    android:alpha="0.75"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="90dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAlignment="center"
+                        android:text="Please contact us to buy our products to support us financially.\n\nWe are actively seeking Volunteers for noble cause.Click Join Us for Details.\n\n To setup our product centre at your city,town or locality please contact us.Our products include Notebooks,Candles,LED Bulbs,Diyas etc.\n\nIf you live nearby Delhi please purchase our products and help us raise the funds for our Organisation."
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                    android:gravity="center"
+                        android:id="@+id/updatefrag3"/>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

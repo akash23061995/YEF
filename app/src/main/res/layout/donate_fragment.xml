@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/visiondonate"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="monospace"
+            android:text="donate"
+            android:id="@+id/donatefragt1"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/donatefragt1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/donatefragc2"
+            android:layout_marginRight="10dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            app:contentPadding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="YEF is in constant need of your help and to help us make sure we have what we need to support our talented students. We have listed our current requirements."
+                android:textColor="@color/colorAccent"
+                android:id="@+id/donatefragt2"
+                android:textSize="18sp" />
+        </android.support.v7.widget.CardView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/donatefragc2"
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif-condensed"
+                android:text="DONATE OPTIONS"
+                android:id="@+id/donatefragt3"
+                android:textColor="#FFC400"
+                android:textSize="30dp" />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:contentPadding="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="#009688"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="General Donation  ₹501"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/donatefragt4"
+                    android:textSize="20sp" />
+            </android.support.v7.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="serif"
+                    android:text="501"
+                    android:layout_weight="3"
+                    android:drawableLeft="@drawable/currency_blue"
+                    android:textColor="#FFFF00"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Donate"
+                    android:onClick="donate501"
+                    android:id="@+id/buttond1"
+                    android:layout_weight="1"
+                    style="@style/Widget.AppCompat.Button.Colored"
+
+                    />
+            </LinearLayout>
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:contentPadding="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="#F44336"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Breakfast, Lunch or Dinner for 20 children on a day of your choice  ₹2000"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/donatefragt5"
+                    android:textSize="20sp" />
+            </android.support.v7.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="serif"
+                    android:text="2000"
+                    android:layout_weight="3"
+                    android:drawableLeft="@drawable/currency_red"
+                    android:textColor="#FFFF00"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Donate"
+                    android:onClick="donate2000"
+                    android:layout_weight="1"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:id="@+id/buttond2"
+                    />
+            </LinearLayout>
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:contentPadding="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="#FFB300"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Books and uniform for a child for a year  ₹6000"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/donatefragt6"
+                    android:textSize="20sp" />
+            </android.support.v7.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="serif"
+                    android:text="6000"
+                    android:layout_weight="3"
+                    android:drawableLeft="@drawable/currency_yellow"
+                    android:textColor="#FFFF00"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Donate"
+                    android:onClick="donate6000"
+                    android:layout_weight="1"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:id="@+id/buttond3"
+                    />
+            </LinearLayout>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:contentPadding="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="#009688"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Hostel and food sponsorship for a child for a year  ₹10000"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/donatefragt7"
+                    android:textSize="20sp" />
+            </android.support.v7.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="serif"
+                    android:text="10000"
+                    android:layout_weight="3"
+                    android:drawableLeft="@drawable/currency_blue"
+                    android:textColor="#FFFF00"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Donate"
+                    android:onClick="donate10000"
+                    android:layout_weight="1"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:id="@+id/buttond4"
+                    />
+            </LinearLayout>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:contentPadding="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="#F44336"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Computer for School Children ₹20000"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/donatefragt8"
+                    android:textSize="20sp" />
+            </android.support.v7.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="serif"
+                    android:text="20000"
+                    android:layout_weight="3"
+                    android:drawableLeft="@drawable/currency_red"
+                    android:textColor="#FFFF00"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Donate"
+                    android:onClick="donate20000"
+                    android:layout_weight="1"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:id="@+id/buttond5"
+                    />
+            </LinearLayout>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:contentPadding="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="#FFB300"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Education sponsorship of child for a year  ₹24000"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/donatefragt9"
+                    android:textSize="20sp" />
+            </android.support.v7.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="serif"
+                    android:text="24000"
+                    android:layout_weight="3"
+                    android:drawableLeft="@drawable/currency_yellow"
+                    android:textColor="#FFFF00"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Donate"
+                    android:onClick="donate24000"
+                    android:layout_weight="1"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:id="@+id/buttond6"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+</ScrollView>

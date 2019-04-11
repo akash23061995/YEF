@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="yef.gwalior.aks.com.yef.ShowProfile">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <ImageView
+                android:id="@+id/cover_imageeview"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/coverphoto"
+                android:adjustViewBounds="true"
+
+                />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:id="@+id/profile_imageeview"
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="170dp"
+                android:src="@drawable/yef_icon_short"
+                app:border_color="#FFFFFF"
+                app:border_width="4dp"
+                />
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_imageeview"
+
+                android:layout_centerHorizontal="true"
+                android:inputType="textPersonName"
+                android:text="Akash Soni"
+                android:textColor="@android:color/background_dark"
+                android:textSize="30sp" />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="About"
+            android:id="@+id/showproft1"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/background_dark"
+            android:drawableRight="@drawable/aboutmeicon"
+            android:drawablePadding="10dp"
+            />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+           android:textSize="18sp"
+           android:text="about me"
+           android:id="@+id/aboutmetext"
+           />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Email"
+            android:id="@+id/showproft2"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/background_dark"
+            android:drawableRight="@drawable/emailicon"
+            android:drawablePadding="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="18sp"
+            android:text="email"
+            android:id="@+id/emailtext"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Gender"
+            android:id="@+id/showproft3"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/background_dark"
+            android:drawableRight="@drawable/gendericon"
+            android:drawablePadding="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="18sp"
+            android:text="gender"
+            android:id="@+id/gendertext"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/showproft4"
+            android:text="Date of Birth"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/background_dark"
+            android:drawableRight="@drawable/bdayicon"
+            android:drawablePadding="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="18sp"
+            android:text="Date of Birth"
+            android:id="@+id/bdaytext"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Address"
+            android:id="@+id/showproft5"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/background_dark"
+            android:drawableRight="@drawable/addressicon"
+            android:drawablePadding="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="18sp"
+            android:text="address"
+            android:id="@+id/addresstext"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Phone"
+            android:id="@+id/showproft6"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/background_dark"
+            android:drawableRight="@drawable/phoneicon"
+            android:drawablePadding="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="18sp"
+            android:text="Phone Number"
+            android:id="@+id/phonetext"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Education Level"
+            android:id="@+id/showproft7"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/background_dark"
+            android:drawableRight="@drawable/educationlevelicon"
+            android:drawablePadding="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="18sp"
+            android:text="Education Level"
+            android:id="@+id/educationleveltext"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Education Field"
+            android:id="@+id/showproft8"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/background_dark"
+            android:drawableRight="@drawable/educationfieldicon"
+            android:drawablePadding="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="18sp"
+            android:text="education field"
+            android:id="@+id/educationfieldtext"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Type of Youth"
+            android:id="@+id/showproft9"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/background_dark"
+            android:drawableRight="@drawable/typeofyouthicon"
+            android:drawablePadding="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="18sp"
+            android:text="type of youth"
+            android:id="@+id/typeofyouthtext"
+            />
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:onClick="privacyLink"
+            android:text="@string/Believe_us"
+            android:id="@+id/showproft10"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="10dp"
+            />
+
+    </LinearLayout>
+</ScrollView>

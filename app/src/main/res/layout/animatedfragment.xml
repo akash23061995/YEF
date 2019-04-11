@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/flipperid2"
+
+        android:flipInterval="4000"
+        android:elevation="5dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/gallery_1"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delhi Dance Program"
+                android:textSize="25sp"
+                android:id="@+id/animatedt1"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif-condensed"
+                />
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/gallery_2"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enthusiastic Faces :)"
+                    android:textSize="25sp"
+                    android:id="@+id/animatedt2"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/gallery_3"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Volunteering Work"
+                    android:textSize="25sp"
+                    android:id="@+id/animatedt3"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/gallery_4"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Math Race 2017"
+                    android:textSize="25sp"
+                    android:id="@+id/animatedt4"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/gallery_5"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Food Distribution to Needy"
+                    android:textSize="25sp"
+                    android:id="@+id/animatedt5"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/gallery_6"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Food Distribution to Needy"
+                    android:textSize="25sp"
+                    android:id="@+id/animatedt6"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/gallery_8"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Food Distribution to Needy"
+                    android:textSize="25sp"
+                    android:id="@+id/animatedt7"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/gallery_10"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Republic Day Celebration"
+                    android:textSize="25sp"
+                    android:id="@+id/animatedt8"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/gallery_12"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Delhi Dance Program"
+                    android:textSize="25sp"
+                    android:id="@+id/animatedt9"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/gallery_13"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Christmas Celebration"
+                    android:textSize="25sp"
+                    android:id="@+id/animatedt10"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/gallery_14"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Childline Awareness Program"
+                    android:textSize="25sp"
+                    android:id="@+id/animatedt11"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/gallery_15"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Childline Awareness Program"
+                    android:textSize="25sp"
+                    android:id="@+id/animatedt12"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/gallery_16"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Math Race 2017"
+                    android:textSize="25sp"
+                    android:id="@+id/animatedt13"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/gallery_17"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Republic Day Program"
+                    android:textSize="25sp"
+                    android:id="@+id/animatedt14"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/gallery_18"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Republic Day Celebration"
+                    android:textSize="25sp"
+                    android:id="@+id/animatedt15"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/product_candle"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Candles made by Students"
+                    android:textSize="25sp"
+                    android:id="@+id/animatedt16"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/product_candle2"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Candles made by Students"
+                    android:textSize="25sp"
+                    android:id="@+id/animatedt17"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/product_candle3"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Candles made by Students"
+                    android:textSize="25sp"
+                    android:id="@+id/animatedt18"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/product_candle4"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Candles made by Students"
+                    android:textSize="25sp"
+                    android:id="@+id/animatedt19"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/product_diya"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Diya Prepared by Students"
+                    android:textSize="25sp"
+                    android:id="@+id/animatedt20"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/product_diya3"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Diya Prepared by Students"
+                    android:textSize="25sp"
+                    android:id="@+id/animatedt21"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/product_led"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LED Bulbs made by Students"
+                    android:textSize="25sp"
+                    android:id="@+id/animatedt22"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/visionproject"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Selfie Time"
+                    android:textSize="25sp"
+                    android:id="@+id/animatedt23"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/visionhome"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Republic Day Celebration"
+                    android:textSize="25sp"
+                    android:id="@+id/animatedt24"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/vision2_land"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Food distribution to Needy"
+                    android:textSize="25sp"
+                    android:id="@+id/animatedt25"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/vision3_land"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Classroom Teaching"
+                    android:textSize="25sp"
+                    android:id="@+id/animatedt26"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/visiondonate_land"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Donation to Slum Kids"
+                    android:textSize="25sp"
+                    android:id="@+id/animatedt27"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/yef_background3"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="YEF Logo - Mission"
+                    android:textSize="25sp"
+                    android:id="@+id/animatedt28"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/appdeveloper1"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="App Developed By"
+                    android:textSize="25sp"
+                    android:id="@+id/animatedt29"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+    </ViewFlipper>
+
+
+</RelativeLayout>
+
+
+
+

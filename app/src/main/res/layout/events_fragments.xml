@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/vision3_land"
+                android:layout_alignParentTop="true"
+                android:adjustViewBounds="true"
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:contentPadding="7dp"
+                app:cardElevation="15dp"
+                app:cardCornerRadius="3dp"
+                app:cardBackgroundColor="#000000"
+
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentBottom="true"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:text="Events"
+                    android:id="@+id/eventfragt1"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/white"
+                    android:textSize="32sp" />
+            </android.support.v7.widget.CardView>
+
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:contentPadding="7dp"
+            app:cardElevation="15dp"
+            app:cardCornerRadius="3dp"
+            app:cardBackgroundColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Education Centers"
+                android:id="@+id/eventfragt2"
+                android:textAllCaps="true"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="25sp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:contentPadding="5dp"
+            app:cardElevation="7dp"
+            app:cardCornerRadius="3dp"
+            app:cardBackgroundColor="#000000"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eventfragt3"
+                android:fontFamily="sans-serif-condensed"
+                android:text="We have 2 centers that provide holistic education, are and skill development, social awareness and much more to deprived communities. More than 200 underprivileged children have studied at our centers and far more have benefited from it. We not only impart education and useful skills but also organize workshops and personal counseling sessions to ensure that every child grows up with high standards of moral values. They are provided with the opportunity to demonstrate their talents on different public platforms thus inspiring the spirit of those who come in the vicinity. Apart from this, we also provide them with healthcare facilities in association with other organizations."
+                android:textColor="#69F0AE"
+                android:textSize="18sp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:contentPadding="7dp"
+            app:cardElevation="15dp"
+            app:cardCornerRadius="3dp"
+            app:cardBackgroundColor="#000000"
+
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/eventfragt4"
+                android:text="English Learning Program"
+                android:textAllCaps="true"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="25sp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:contentPadding="5dp"
+            app:cardElevation="7dp"
+            app:cardCornerRadius="3dp"
+            app:cardBackgroundColor="#000000"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eventfragt5"
+                android:fontFamily="sans-serif-condensed"
+                android:text="English is the most frequently spoken language today. We want our students to be able to compete with students from other schools for jobs and opportunities. The children here develop adaptable and ambitious personalities and being fluent in English is a part of that. Children hailing form the lower sections struggle with English so we initiated a special language class for it."
+                android:textColor="#69F0AE"
+                android:textSize="18sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:contentPadding="7dp"
+            app:cardElevation="15dp"
+            app:cardCornerRadius="3dp"
+            app:cardBackgroundColor="#000000"
+
+            android:layout_marginLeft="10dp"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/eventfragt6"
+                android:text="Computer Training Program"
+                android:textAllCaps="true"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="25sp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:contentPadding="5dp"
+            app:cardElevation="7dp"
+            app:cardCornerRadius="3dp"
+            app:cardBackgroundColor="#000000"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:id="@+id/eventfragt7"
+                android:text="The present generation that we live in is highly technical and electronic gadgets are dominating our lives. Computer knowledge is important with the high tech world. The need to impart computer education to the children was realized since the children showed a keen interest for computer knowledge. Making computer education accessible to them has become our priority. Keeping the need in mind, a computer class program has been initiated."
+                android:textColor="#69F0AE"
+                android:textSize="18sp" />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

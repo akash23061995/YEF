@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppDeveloper">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       >
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+
+          >
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="260dp"
+             android:src="@drawable/appdeveloper1"
+             android:layout_alignParentTop="true"
+             android:scaleType="centerCrop"
+             android:adjustViewBounds="true"
+
+
+             />
+          <ImageView
+              android:layout_width="70dp"
+              android:layout_height="100dp"
+              android:src="@drawable/iiitm"
+
+              />
+
+
+      </RelativeLayout>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Akash Soni"
+           android:textSize="40dp"
+           android:textColor="@color/colorAccent"
+           android:fontFamily="sans-serif-condensed"
+           android:layout_marginLeft="20dp"
+           android:layout_marginTop="10dp"
+           android:elevation="15dp"
+           android:id="@+id/appdevelopert1"
+
+           />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Integrated Post Graduate Student"
+          android:textSize="20dp"
+          android:drawableLeft="@drawable/degreegreen"
+          android:drawablePadding="10dp"
+          android:textColor="@android:color/background_dark"
+          android:fontFamily="sans-serif-condensed"
+          android:layout_marginLeft="20dp"
+          android:layout_marginTop="5dp"
+
+          android:id="@+id/appdevelopert2"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Information Technology"
+          android:textSize="20dp"
+          android:drawableLeft="@drawable/itgreen"
+          android:drawablePadding="10dp"
+          android:textColor="@android:color/background_dark"
+          android:fontFamily="sans-serif-condensed"
+          android:layout_marginLeft="20dp"
+          android:layout_marginTop="10dp"
+          android:id="@+id/appdevelopert3"
+          />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Atal Bihari Vajpayee Indian Institute of Information Technology and Management"
+          android:textSize="20dp"
+          android:drawableTop="@drawable/collegegreen"
+          android:drawablePadding="0dp"
+          android:textColor="@android:color/background_dark"
+          android:fontFamily="sans-serif-condensed"
+          android:layout_marginLeft="20dp"
+          android:layout_marginTop="8dp"
+          android:id="@+id/appdevelopert4"
+          />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="akashsoni987654321@gmail.com"
+          android:textSize="20dp"
+          android:drawableLeft="@drawable/emailgreen"
+          android:drawablePadding="10dp"
+          android:textColor="@android:color/background_dark"
+          android:fontFamily="sans-serif-condensed"
+          android:layout_marginLeft="20dp"
+          android:layout_marginTop="10dp"
+          android:id="@+id/appdevelopert5"
+          />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gmail_icon"
+        android:id="@+id/gmaildeveloper"
+        android:onClick="gmailDeveloper"
+        />
+
+</LinearLayout>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="8989472401"
+          android:textSize="20dp"
+          android:drawableLeft="@drawable/phonegreen"
+          android:drawablePadding="10dp"
+          android:textColor="@android:color/background_dark"
+          android:fontFamily="sans-serif-condensed"
+          android:layout_marginLeft="20dp"
+          android:layout_marginTop="10dp"
+          android:id="@+id/appdevelopert6"
+          />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="12"
+        >
+      <de.hdodenhof.circleimageview.CircleImageView
+          android:layout_width="0dp"
+          android:layout_height="200dp"
+          android:src="@drawable/appdeveloper2"
+          android:id="@+id/circleappdeveloper1"
+          android:layout_weight="5"
+          />
+
+       <de.hdodenhof.circleimageview.CircleImageView
+           android:id="@+id/circleappdeveloper2"
+           android:layout_width="0dp"
+           android:layout_weight="4"
+           android:layout_gravity="center_vertical"
+           android:layout_height="150dp"
+           android:src="@drawable/appdeveloper3" />
+
+       <de.hdodenhof.circleimageview.CircleImageView
+           android:id="@+id/circleappdeveloper3"
+           android:layout_width="0dp"
+           android:layout_height="120dp"
+           android:layout_weight="3"
+           android:src="@drawable/appdeveloper4"
+           android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+       <android.support.v7.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+          app:cardBackgroundColor="@color/colorPrimary"
+           app:cardCornerRadius="5dp"
+           app:cardElevation="10dp"
+           app:contentPadding="5dp"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           >
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="18sp"
+          android:textColor="@android:color/white"
+          android:text="I am pursuing Integrated M.Tech from ABV IIITM Gwalior in Information Technology.If you have any queries regarding this application,feel free to contact me.Your Suggestions and Responses are welcome and critical for us.If you have any work of Mobile Application Development,Feel free to contact me,I will help you with related work."
+
+          android:id="@+id/appdevelopert7"
+          />
+
+       </android.support.v7.widget.CardView>
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="VIEW YEF PROFILE"
+             android:background="@android:color/holo_blue_dark"
+             android:textColor="#FFFFFF"
+             android:padding="10dp"
+             android:layout_marginTop="20dp"
+             android:layout_gravity="center_horizontal"
+             android:layout_marginBottom="25dp"
+             android:id="@+id/viewdeveloperprofile"
+             android:onClick="viewDeveloperProfile"
+             />
+
+
+
+   </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/feedback1"
+        android:adjustViewBounds="true"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="We would like your feedback to improve our application."
+        android:textSize="20sp"
+        android:id="@+id/feedbackt1"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="What is your opinion of this application? Click on any one face"
+        android:id="@+id/feedbackt2"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:src="@drawable/feedback2"
+            android:layout_weight="1"
+            android:id="@+id/reaction1"
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:src="@drawable/feedback3"
+            android:layout_weight="1"
+            android:id="@+id/reaction2"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:src="@drawable/feedback4"
+            android:layout_weight="1"
+            android:id="@+id/reaction3"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:src="@drawable/feedback5"
+            android:layout_weight="1"
+            android:id="@+id/reaction4"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:src="@drawable/feedback6"
+            android:layout_weight="1"
+            android:id="@+id/reaction5"
+            />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Please select your feedback category below.Click on any one button"
+        android:id="@+id/feedbackt3"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        />
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+
+         android:layout_marginTop="10dp"
+         android:layout_gravity="center_horizontal"
+         >
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@color/colorAccent"
+             android:textColor="@android:color/white"
+             android:text="Suggestion"
+             android:layout_marginRight="20dp"
+             android:padding="5dp"
+             android:id="@+id/suggestion"
+             />
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@color/colorAccent"
+             android:textColor="@android:color/white"
+             android:text="Something is not right"
+             android:layout_marginRight="5dp"
+             android:padding="5dp"
+             android:id="@+id/somethingnotright"
+
+             />
+
+     </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/white"
+            android:text="Compliment"
+           android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:id="@+id/compliment"
+            />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Please leave your feedback below.Don't forget to click Send to send all feedback to us,without clicking send the data will not reach us."
+        android:id="@+id/feedbackt4"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+       android:layout_marginTop="20dp"
+        />
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="120dp"
+         android:layout_marginLeft="20dp"
+         android:layout_marginRight="20dp"
+         android:hint="Leave your Query here....."
+         android:focusable="true"
+         android:inputType="text"
+         android:gravity="start"
+         android:id="@+id/feedbackstring"
+         />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="60dp"
+            >
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="35dp"
+                android:src="@drawable/appdeveloper1"
+                android:adjustViewBounds="true"
+                android:id="@+id/feedbackimg1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="59dp"
+                android:layout_marginLeft="59dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="AkS"
+                android:textColor="@color/colorAccent" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:textColor="@android:color/white"
+                android:text="SEND"
+                android:id="@+id/sendfeedback"
+                android:layout_alignParentRight="true"
+
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

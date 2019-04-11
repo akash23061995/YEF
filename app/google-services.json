@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1052316566129",
+    "firebase_url": "https://yefo-3f08c.firebaseio.com",
+    "project_id": "yefo-3f08c",
+    "storage_bucket": "yefo-3f08c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052316566129:android:8ce982ec85298e63",
+        "android_client_info": {
+          "package_name": "yef.gwalior.aks.com.yef"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1052316566129-gjcne3it5iaql4p0lg13ds6p2r37lv03.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "yef.gwalior.aks.com.yef",
+            "certificate_hash": "b3f75428023daffd2944889ee15359396636f9b4"
+          }
+        },
+        {
+          "client_id": "1052316566129-1j7ihq3r61cv96fks2ipeohk05n3n24h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaHXVCslXXKjXJlj1PqNxpwM7b4fttmfk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1052316566129-1j7ihq3r61cv96fks2ipeohk05n3n24h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

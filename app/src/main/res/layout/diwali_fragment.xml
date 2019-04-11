@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="true"
+    >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/flipperid"
+
+        android:flipInterval="4000"
+        android:elevation="5dp">
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/diwalib1"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+
+            />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:text="This Diwali help us Employ few women in the candle making work."
+             android:textSize="20sp"
+             android:id="@+id/diwalit1"
+             android:textColor="@android:color/white"
+             android:fontFamily="sans-serif-condensed"
+             />
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/diwalit1"
+             android:layout_marginTop="12dp"
+             android:layout_centerHorizontal="true"
+             android:orientation="vertical">
+
+
+             <Button
+                 android:id="@+id/diwalireadmore1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="30dp"
+                 android:layout_gravity="center_horizontal"
+                 android:layout_marginBottom="12dp"
+                 android:background="@android:color/holo_blue_bright"
+                 android:fontFamily="monospace"
+                 android:padding="5dp"
+                 android:text="Read More Here"
+                 android:textColor="@android:color/black"
+                 android:textSize="14sp" />
+
+             <Button
+                 android:id="@+id/diwalidonate1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="30dp"
+                 android:layout_gravity="center_horizontal"
+                 android:layout_marginBottom="12dp"
+                 android:background="@android:color/holo_blue_bright"
+                 android:fontFamily="monospace"
+                 android:padding="5dp"
+                 android:text="Donate Here"
+                 android:textColor="@android:color/black"
+                 android:textSize="14sp" />
+
+             <Button
+                 android:id="@+id/diwalipaytm1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="30dp"
+                 android:layout_gravity="center_horizontal"
+                 android:background="@android:color/holo_blue_bright"
+                 android:fontFamily="monospace"
+                 android:padding="5dp"
+                 android:text="Donate by Paytm"
+                 android:textColor="@android:color/black"
+                 android:textSize="14sp" />
+
+             <android.support.v7.widget.CardView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="10dp"
+                 app:cardBackgroundColor="#FFFFFF"
+                 app:cardCornerRadius="10dp"
+                 app:cardElevation="12dp"
+                 app:contentPadding="10dp"
+                 android:layout_gravity="center_horizontal"
+                 android:layout_marginLeft="25dp"
+                 android:layout_marginRight="25dp"
+                 >
+
+                 <TextView
+                     android:id="@+id/diwalibank1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:fontFamily="sans-serif-condensed"
+                     android:text="NEFT/IMPS/RTGS (From Banks in India only)\n Account number: 700701707077034\n Account name: Community Women\n IFSC code: YESB0CMSNOC \n------------------------------------------------\nUPI Handle: supportcommunity11@yesbankltd\nDirect UPI Pay (Android Only): http://impactgu.ru/upi-community-women"
+
+                     android:gravity="center_horizontal"
+                     android:textColor="#000000"
+                     android:textSize="15sp" />
+
+
+             </android.support.v7.widget.CardView>
+
+         </LinearLayout>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="WAIT"
+             android:fontFamily="sans-serif-condensed"
+             android:textColor="@android:color/white"
+             android:textSize="21sp"
+             android:layout_alignParentBottom="true"
+             android:layout_alignParentRight="true"
+             />
+       </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/diwalib2"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/diwalit2"
+                android:text="YEF is an NGO working for education,skill training and employment for the deprived community.We held candle making workshop at our center during last year Diwali."
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif-condensed"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/diwalit2"
+                android:layout_marginTop="12dp"
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/diwalireadmore2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="12dp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:fontFamily="monospace"
+                    android:padding="5dp"
+                    android:text="Read More Here"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/diwalidonate2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="12dp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:fontFamily="monospace"
+                    android:padding="5dp"
+                    android:text="Donate Here"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/diwalipaytm2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@android:color/holo_blue_bright"
+                    android:fontFamily="monospace"
+                    android:padding="5dp"
+                    android:text="Donate by Paytm"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="#FFFFFF"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="12dp"
+                    app:contentPadding="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/diwalibank2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="NEFT/IMPS/RTGS (From Banks in India only)\n Account number: 700701707077034\n Account name: Community Women\n IFSC code: YESB0CMSNOC \n------------------------------------------------\nUPI Handle: supportcommunity11@yesbankltd\nDirect UPI Pay (Android Only): http://impactgu.ru/upi-community-women"
+
+                        android:gravity="center_horizontal"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WAIT"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@android:color/white"
+                android:textSize="21sp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/diwalib3"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/diwalit3"
+                android:text="Many underprivileged girls and women learn the art and earn a little amount by selling those candles.Our Experiment brought an Impact that can benefit many lives from this year onwards."
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif-condensed"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/diwalit3"
+                android:layout_marginTop="12dp"
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/diwalireadmore3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="12dp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:fontFamily="monospace"
+                    android:padding="5dp"
+                    android:text="Read More Here"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/diwalidonate3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="12dp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:fontFamily="monospace"
+                    android:padding="5dp"
+                    android:text="Donate Here"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/diwalipaytm3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@android:color/holo_blue_bright"
+                    android:fontFamily="monospace"
+                    android:padding="5dp"
+                    android:text="Donate by Paytm"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="#FFFFFF"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="12dp"
+                    app:contentPadding="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/diwalibank3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="NEFT/IMPS/RTGS (From Banks in India only)\n Account number: 700701707077034\n Account name: Community Women\n IFSC code: YESB0CMSNOC \n------------------------------------------------\nUPI Handle: supportcommunity11@yesbankltd\nDirect UPI Pay (Android Only): http://impactgu.ru/upi-community-women"
+
+                        android:gravity="center_horizontal"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WAIT"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@android:color/white"
+                android:textSize="21sp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/diwalib4"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Last year the project was funded by founder only and the total expenditure was around 1.5 lacs.Now we are seeking help from you,your small contribution can bring light into few more lives."
+                android:textSize="20sp"
+                android:id="@+id/diwalit4"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif-condensed"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/diwalit4"
+                android:layout_marginTop="12dp"
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/diwalireadmore4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="12dp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:fontFamily="monospace"
+                    android:padding="5dp"
+                    android:text="Read More Here"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/diwalidonate4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="12dp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:fontFamily="monospace"
+                    android:padding="5dp"
+                    android:text="Donate Here"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/diwalipaytm4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@android:color/holo_blue_bright"
+                    android:fontFamily="monospace"
+                    android:padding="5dp"
+                    android:text="Donate by Paytm"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="#FFFFFF"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="12dp"
+                    app:contentPadding="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/diwalibank4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="NEFT/IMPS/RTGS (From Banks in India only)\n Account number: 700701707077034\n Account name: Community Women\n IFSC code: YESB0CMSNOC \n------------------------------------------------\nUPI Handle: supportcommunity11@yesbankltd\nDirect UPI Pay (Android Only): http://impactgu.ru/upi-community-women"
+
+                        android:gravity="center_horizontal"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WAIT"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@android:color/white"
+                android:textSize="21sp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/diwalib5"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="We need to buy raw materials and equipments required for the training and work.After production we will set up stalls in market places and companies to sell"
+                android:textSize="20sp"
+                android:id="@+id/diwalit5"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif-condensed"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/diwalit5"
+                android:layout_marginTop="12dp"
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/diwalireadmore5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="12dp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:fontFamily="monospace"
+                    android:padding="5dp"
+                    android:text="Read More Here"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/diwalidonate5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="12dp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:fontFamily="monospace"
+                    android:padding="5dp"
+                    android:text="Donate Here"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/diwalipaytm5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@android:color/holo_blue_bright"
+                    android:fontFamily="monospace"
+                    android:padding="5dp"
+                    android:text="Donate by Paytm"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="#FFFFFF"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="12dp"
+                    app:contentPadding="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/diwalibank5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="NEFT/IMPS/RTGS (From Banks in India only)\n Account number: 700701707077034\n Account name: Community Women\n IFSC code: YESB0CMSNOC \n------------------------------------------------\nUPI Handle: supportcommunity11@yesbankltd\nDirect UPI Pay (Android Only): http://impactgu.ru/upi-community-women"
+
+                        android:gravity="center_horizontal"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WAIT"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@android:color/white"
+                android:textSize="21sp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/diwalib6"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Those who gets training can start his/her own small business and earn their living."
+                android:textSize="20sp"
+                android:id="@+id/diwalit6"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif-condensed"
+                />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Let's Create Smile...!  :) "
+            android:layout_below="@+id/diwalit6"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+                android:id="@+id/diwalit7"
+            android:fontFamily="casual"
+            android:layout_centerHorizontal="true"
+            />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/diwalit7"
+                android:layout_marginTop="12dp"
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/diwalireadmore6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="12dp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:fontFamily="monospace"
+                    android:padding="5dp"
+                    android:text="Read More Here"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/diwalidonate6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="12dp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:fontFamily="monospace"
+                    android:padding="5dp"
+                    android:text="Donate Here"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/diwalipaytm6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@android:color/holo_blue_bright"
+                    android:fontFamily="monospace"
+                    android:padding="5dp"
+                    android:text="Donate by Paytm"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="#FFFFFF"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="12dp"
+                    app:contentPadding="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/diwalibank6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="NEFT/IMPS/RTGS (From Banks in India only)\n Account number: 700701707077034\n Account name: Community Women\n IFSC code: YESB0CMSNOC \n------------------------------------------------\nUPI Handle: supportcommunity11@yesbankltd\nDirect UPI Pay (Android Only): http://impactgu.ru/upi-community-women"
+
+                        android:gravity="center_horizontal"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WAIT"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@android:color/white"
+                android:textSize="21sp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+    </ViewFlipper>
+
+
+        </RelativeLayout>
+</ScrollView>
+
+
+
+
+

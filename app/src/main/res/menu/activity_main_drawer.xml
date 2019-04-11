@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/homeicon"
+            android:title="Home" />
+        <item
+            android:id="@+id/aboutus"
+            android:icon="@drawable/aboutus"
+            android:title="About Us" />
+        <item
+            android:id="@+id/events"
+            android:icon="@drawable/events"
+            android:title="Events" />
+
+        <item
+            android:id="@+id/updates"
+            android:icon="@drawable/updates"
+            android:title="Updates" />
+        <item
+            android:id="@+id/gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/animatedgallery"
+            android:icon="@drawable/video"
+            android:title="Animated Gallery"
+            />
+        <item
+            android:id="@+id/projects"
+            android:icon="@drawable/projects"
+            android:title="Projects" />
+        <item
+            android:id="@+id/products"
+            android:icon="@drawable/products"
+            android:title="Our Products" />
+    </group>
+<item  android:title="Get Involved"
+        android:id="@+id/getinvolvetext"
+    >
+    <menu>
+        <item
+            android:id="@+id/joinus"
+            android:icon="@drawable/joinus"
+            android:title="Join Us" />
+        <item
+            android:id="@+id/donate"
+            android:icon="@drawable/currency"
+            android:title="Donate" />
+        <item
+            android:id="@+id/diwali"
+            android:icon="@drawable/diwali1"
+            android:title="Diwali Special"
+            />
+
+    </menu>
+
+</item>
+    <item android:title="Communicate"
+        android:id="@+id/communicatetext"
+        >
+        <menu>
+            <item
+                android:id="@+id/connect"
+                android:icon="@drawable/connect"
+                android:title="Connect with us" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/feedback_icon"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
+</menu>

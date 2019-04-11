@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="yef.gwalior.aks.com.yef.UserProfile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <ImageView
+            android:id="@+id/cover_image"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/coverphoto"
+            android:adjustViewBounds="true"
+
+            />
+
+        <Button
+            android:id="@+id/coverpicupdate"
+            android:layout_width="90dp"
+            android:layout_height="35dp"
+            android:layout_alignBottom="@+id/cover_image"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/background_dark"
+            android:drawableLeft="@drawable/camerawhite"
+            android:onClick="chooseImage1"
+            android:text="Change"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/profilepicupdate"
+            android:layout_width="90dp"
+            android:layout_height="35dp"
+            android:layout_alignBottom="@+id/profile_image"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/background_dark"
+            android:drawableLeft="@drawable/camerawhite"
+            android:text="Change"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            android:id="@+id/profile_image"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="170dp"
+            android:src="@drawable/profilephotu"
+            app:border_color="#FFFFFF"
+            app:border_width="4dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="142dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:text=""
+            android:id="@+id/covererr"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/cover_image"
+            android:layout_centerHorizontal="true"
+            android:focusable="true"
+            android:id="@+id/profileerr"
+            android:focusableInTouchMode="true"
+            android:text=""
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile_image"
+
+            android:layout_centerHorizontal="true"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+    <EditText
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:hint="Name"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/entername"
+        />
+
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:maxLines="5"
+    android:hint="Describe Yourself"
+    android:gravity="center_horizontal"
+    android:inputType="textMultiLine"
+    android:id="@+id/aboutme"
+    android:layout_marginTop="5dp"
+    android:layout_gravity="center_horizontal"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    />
+        <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:focusable="true"
+        />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:id="@+id/gender"
+
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/darker_gray"
+            android:text="Male"
+            android:textSize="20sp"
+            android:id="@+id/male"
+            android:focusable="true"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/darker_gray"
+            android:text="Female"
+            android:textSize="20sp"
+            android:id="@+id/female"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/darker_gray"
+            android:text="Other"
+            android:textSize="20sp"
+            android:id="@+id/other"
+            />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Date of Birth DD/MM/YY"
+
+        android:gravity="center_horizontal"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:onClick="datepick"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="Local Address"
+        android:focusable="true"
+        android:gravity="center_horizontal"
+        android:inputType="textPostalAddress"
+        android:id="@+id/Address"
+
+        />
+   <LinearLayout
+       android:layout_width="380dp"
+       android:layout_height="60dp"
+       android:layout_gravity="center_horizontal"
+       android:weightSum="2"
+       >
+       <Spinner
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:id="@+id/spinner2"
+           android:layout_weight="1"
+           android:focusable="true"
+           >
+       </Spinner>
+       <Spinner
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:id="@+id/spinner3"
+           android:layout_weight="1"
+           android:focusable="true"
+           >
+       </Spinner>
+
+
+
+
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        >
+    <com.firebase.ui.auth.ui.phone.CountryListSpinner
+        android:layout_width="wrap_content"
+        android:layout_height="60dp" />
+    <EditText
+        android:layout_height="50dp"
+        android:layout_width="130dp"
+        android:inputType="phone"
+        android:id="@+id/phone"
+        android:maxLength="10"
+        android:hint="Phone"
+        android:focusable="true"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        >
+  <TextView
+      android:layout_width="150dp"
+      android:layout_height="match_parent"
+      android:textColor="@android:color/darker_gray"
+      android:text="Education Level"
+      android:layout_marginRight="15dp"
+      android:id="@+id/edulevel"
+      android:textSize="20sp"
+      />
+        <Spinner
+      android:layout_width="170dp"
+      android:layout_height="match_parent"
+      android:id="@+id/spinner"
+            android:focusable="true"
+      >
+  </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        >
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/darker_gray"
+            android:text="Education Field"
+            android:id="@+id/edufield"
+            android:layout_marginRight="15dp"
+            android:textSize="20sp"
+            />
+        <Spinner
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:id="@+id/spinner4"
+            android:layout_gravity="center_horizontal"
+            android:focusable="true"
+            >
+        </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        >
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/darker_gray"
+            android:text="Type of Youth"
+            android:id="@+id/youthtype"
+            android:layout_marginRight="15dp"
+            android:textSize="20sp"
+            />
+        <Spinner
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:id="@+id/spinner5"
+            android:layout_gravity="center_horizontal"
+            android:focusable="true"
+            >
+        </Spinner>
+    </LinearLayout>
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       style="@style/Widget.AppCompat.Button.Colored"
+       android:text="UPDATE"
+       android:id="@+id/update"
+       android:onClick="updateProfile"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginTop="15dp"
+       />
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:onClick="privacyLink"
+        android:text="@string/Believe_us"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="15sp"
+        android:id="@+id/beileveus"
+        android:layout_marginTop="20dp"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="10dp"
+        />
+
+</LinearLayout>
+</ScrollView>

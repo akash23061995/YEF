@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/yef_background3"
+    tools:context="yef.gwalior.aks.com.yef.Splashscreen">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="YOUTH EMPOWERMENT FOUNDATION"
+        android:textColor="@android:color/background_dark"
+        android:textSize="25sp" />
+
+       <TextView
+           android:id="@+id/splashcountry"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+
+           android:layout_below="@+id/textView4"
+           android:layout_centerHorizontal="true"
+           android:layout_gravity="center_horizontal"
+           android:fontFamily="sans-serif-condensed"
+           android:text="INDIA"
+           android:textColor="@android:color/background_dark"
+           android:textSize="30sp" />
+
+       <TextView
+           android:id="@+id/splashwelcome"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+
+           android:layout_centerHorizontal="true"
+           android:layout_gravity="center_horizontal"
+           android:layout_marginBottom="76dp"
+           android:text="Welcomes You"
+           android:textColor="#E65100"
+           android:textSize="30sp" />
+
+       <ProgressBar
+           android:id="@+id/progressBar"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+
+           android:layout_alignParentBottom="true"
+           android:layout_centerHorizontal="true"
+           android:layout_gravity="center_horizontal"
+           android:layout_marginBottom="20dp" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_centerHorizontal="true"
+           android:layout_gravity="center_horizontal"
+           android:text=" © YEF 2018"
+           android:textColor="@android:color/background_dark"
+           android:textSize="15sp" />
+   </RelativeLayout>
+</LinearLayout>
+

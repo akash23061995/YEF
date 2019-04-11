@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">YEF</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="logout">Log Out</string>
+
+    <string name="google_server_key">AIzaSyC2ZiwzGL7o2Jscfx4ttVPdAZusdWcbfMo</string>
+    <string name="ak_login_protocol_scheme">ak2119952854993197</string>
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_application_id" translatable="false">2119952854993197</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb2119952854993197</string>
+    <string name="Believe_us"><u>Believe us,this information helps us shape the youth in a better way.\n © YEF 2018 Privacy Policy</u></string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="admob_app_id">ca-app-pub-5698279070549046~2601892043</string>
+    <string name="yefbanner1">ca-app-pub-5698279070549046/7462048396</string>
+
+</resources>
